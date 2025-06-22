@@ -66,7 +66,7 @@
 //  }
 
  var skills = prompt("enter your skills")
- var exp = +prompt("Enter your experionce")
+ var exp = +prompt("Enter your experionce") // + before prompt is maksure the answer sholud in intiger
  var city = prompt("enter your city ")
 //  var salary = prompt("entre your salary")
 
