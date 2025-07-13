@@ -27,8 +27,6 @@
 
 // var word = prompt("Enter word");
    
-
-
 // for(var i = 0 ; i < word.length; i++){
 
 
