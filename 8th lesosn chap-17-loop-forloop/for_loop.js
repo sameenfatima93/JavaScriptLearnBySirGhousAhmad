@@ -49,6 +49,51 @@
 
 // }
 
+// var palandrom = prompt("enter any letter");
+// for (let i = 0; i < palandrom.length; i++) {
+//     console.log(palandrom[i]);
+//     ;  
+// }
+// its a simple loop
+
+// var palandrom = prompt("enter any letter");
+// var reverse = ""
+// for (var i = palandrom.length - 1 ; i >= 0 ; i--) {
+//     reverse += palandrom[i]
+    
+    
+// }
+// // console.log(reverse);
+// if (palandrom === reverse) {
+//     console.log("its a palandrom");
+
+// }else{
+//     console.log("it's not a palandrom");
+    
+// }
+
+// var number = [23,50,60,34,12,67,80]
+// minNumber = number[0]
+// for (let i = 0; i < number.length; i++) {
+//     if (minNumber > number[i] ) {
+//         minNumber = number[i]
+        
+//     }
+    
+// }
+// console.log(minNumber);
+
+var number = [23,50,60,34,12,67,80]
+maxNumber = number[0]
+for (let i = 0; i < number.length; i++) {
+    if (maxNumber < number[i] ) {
+        maxNumber = number[i]
+        
+    }
+    
+}
+console.log(maxNumber);
+
 // console.log(reverse);
  //loop bnany ky bad ab humen if ki condition lgani hy
   
@@ -165,13 +210,13 @@
 
 //lekin ye fomula ziada missing pr jb work kry ga jb alg alg jaghon sy koi number missing ho do qareb qareb ek sath ky na hon hesy 34 or 39 missing hy to ye formula chal jaye ga lekin agr do qareb ky number missing hen jesy 34 or 35 tb humari === 2 wali condition fail ho jaye gi is liye jb ek sy ziada missing ho to
 
-var arr = [31  , 35 , 36 , 37, 38 , 39, 40]
+// var arr = [31  , 35 , 36 , 37, 38 , 39, 40]
 
-for (var i = 0 ; i < arr.length; i++){
-    var diff = arr [i + 1] - arr[i]
-    if(diff > 1){
-        for(var j = 1 ; j < diff ; j++)
-        console.log(arr[i] + j); 
-    }
-}
+// for (var i = 0 ; i < arr.length; i++){
+//     var diff = arr [i + 1] - arr[i]
+//     if(diff > 1){
+//         for(var j = 1 ; j < diff ; j++)
+//         console.log(arr[i] + j); 
+//     }
+// }
  //ye formula b ka hy jb series ky ander ek sy ziada missing hon series sy bahar waly pr nhi chly ga
